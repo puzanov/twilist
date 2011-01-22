@@ -1,0 +1,8 @@
+<% @tweets.each do |tweet| %>
+  <div>
+    <b><%= tweet.username %></b> <%= tweet.twitter_id %>
+    <div style="float:left;padding-right:5px;"><img src="<%= tweet.profile_image_url %>" /></div>
+    <div><%= tweet.text %></div>
+    <div style="clear:both;"></div>
+</div>
+<% end %>
