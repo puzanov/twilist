@@ -1,0 +1,5 @@
+source "http://rubygems.org"
+
+gem "sinatra", "1.2.0"
+gem "mongoid", "1.9.5"
+gem "twitter", "1.1.2"
